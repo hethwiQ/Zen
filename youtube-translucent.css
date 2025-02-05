@@ -1,3024 +1,428 @@
-FOR YOUTUBE/ @-moz-document domain("youtube.com") {
-    html {
-
-        background: rgba(0, 0, 0, 0.19) !important;
-
-        backdrop-filter: blur(8.6px) !important;
-
-        width: 100vw !important;
-
-        height: 100vh !important;
-
-    }
-
-    body {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-        backdrop-filter: none !important;
-
-    }
-
-    
-#background
- {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(1800%) blur(20px);
-
-    }
-
-
-
-    
-#contentContainer
- {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-        backdrop-filter: blur(8.6px) !important;
-    }
-
-    ytd-app {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-    }
-
-    
-#contentWrapper
- {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-        border-radius: 10px;
-    }
-
-    
-.style-scope
- {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-    }
-
-    
-#chips-wrapper
- {
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(180%0%) blur(20px);
-
-
-    }
-
-    
-#text
- {
-        color: #fff !important;
-    }
-
-    
-#right-arrow::before
- {
-        background: none !important;
-
-    }
-
-    
-/*
-#logo.ytd-topbar-logo-renderer,
-
-ytd-yoodle-renderer.ytd-topbar-logo-renderer {
-
-    
-
-}*/
-
-    
-#country-code.ytd-topbar-logo-renderer
- {
-
-        display: none !important
-    }
-
-    
-.style-scope
- tp-yt-app-drawer {
-
-        background: rgba(0, 0, 0, 0) !important;
-    }
-
-    
-.watch-main-col
- {
-
-        display: none !important
-    }
-
-    
-#buttons.ytd-masthead
->
-.ytd-masthead:first-child
- {
-
-        display: none !important
-    }
-
-    
-.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text
- {
-
-        display: none !important
-    }
-
-    
-#sponsor-button.ytd-video-owner-renderer:not
-(
-:empty
-) {
-
-        display: none !important
-    }
-
-
-
-
-
-
-
-    
-/* Replies btn */
-
-    
-.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text
- {
-
-        color: #fdfdfd !important;
-
-        border-color: rgb(36, 94, 121) !important;
-
-    }
-
-
-
-    
-/* comment color */
-
-    
-#content-text.ytd-comment-view-model
- {
-
-        color: #fff;
-
-        text-shadow: 0px 0px 2px #1336484d;
-
-    }
-
-
-
-    
-#description
- 
-.yt-core-attributed-string__link
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-    }
-
-    
-.yt-core-attributed-string--white-space-no-wrap
- {
-
-        color: #fff !important;
-
-
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-    }
-
-    span
-.yt-core-attributed-string--white-space-no-wrap
- {
-
-        color: rgb(240, 247, 246) !important;
-
-        border-color: rgb(0, 0, 0) !important;
-
-        text-shadow: 0px 0px 2px #00070bb3 !important;
-
-    }
-
-    
-#vote-count-middle.ytd-comment-engagement-bar
- {
-
-        color: rgb(0, 0, 0) !important;
-
-        border-color: rgb(255, 255, 255) !important;
-
-    }
-
-    
-.ytd-subscribe-button-renderer
- {
-
-        display: none !important
-    }
-
-
-
-    
-/* To be done
-
-ytd-subscription-notification-toggle-button-renderer-next
-
->div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
-
-    color: rgb(0, 0, 0) !important;
-
-}
-
-*/
-
-    
-.yt-core-attributed-string--link-inherit-color
- {
-
-        color: #d3e9ee !important;
-
-    }
-
-    
-.yt-core-attributed-string__link
- {
-
-        color: #d3e9ee !important;
-
-    }
-
-    
-#description-text
-,
-    
-#subtitle
- {
-
-        color: #d3e9ee !important;
-
-    }
-
-    
-#metadata-line
-,
-    
-.truncated-text-wiz__truncated-text-content
- {
-
-        color: #d3e9ee !important;
-
-    }
-
-    
-.style-scope
- ytd-watch-metadata {
-
-        color: #d3e9ee !important;
-
-    }
-
-
-
-    
-.ytd-thumbnail-overlay-resume-playback-renderer
- {
-
-        
-/* text and hyperlinks */
-
-        background-color: #d3e9ee !important;
-
-    }
-
-    
-#video-title
-,
-    
-#title
-,
-    
-.dynamic-text-view-model-wiz__h1
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-    
-.yt-tab-shape-wiz__tab
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-
-
-    
-#label
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-
-
-    ytd-badge-supported-renderer
-.ytd-channel-name
- div yt-icon span div svg {
-
-        color: #fff;
-
-    }
-
-
-
-    
-#label.ytd-compact-link-renderer
-,
-    
-#subtitle.ytd-compact-link-renderer
-,
-    
-#label.ytd-toggle-theme-compact-link-renderer
-,
-    yt-formatted-string[
-ellipsis-truncate-styling
-] a
-.yt-formatted-string:last-child
-,
-    yt-formatted-string[
-ellipsis-truncate-styling
-] span
-.yt-formatted-string:last-child
- {
-
-        color: #ffffff !important;
-
-    }
-
-    
-.yt-simple-endpoint
- {
-
-        
-/* text and hyperlinks */
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-    ytd-info-panel-container-renderer[
-title-style
-="LINK"] 
-.title.ytd-info-panel-container-renderer
-,
-
-    
-.link-icon.ytd-info-panel-container-renderer
- {
-
-        color: #000 !important;
-
-        border-color: rgb(255, 255, 255) !important;
-
-    }
-
-
-
-    
-.yt-core-attributed-string__link
-,
-
-    
-#owner-sub-count
-,
-
-    
-#channel-name
-,
-
-    yt-formatted-string
-.ytd-channel-name
- 
-.yt-simple-endpoint
-,
-
-    
-.ytd-video-meta-block
- 
-.inline-metadata-item:nth-child
-(3n) {
-
-        
-/* text and hyperlinks */
-
-        color: #d8edf0 !important;
-
-        border-color: rgb(255, 255, 255) !important;
-
-    }
-
-    
-.html5-video-player
-,
-
-    
-.html5-video-container
-,
-
-    
-.ytp-player-content
- ytp-iv-player-content {
-
-        background-color: transparent !important;
-
-    }
-
-
-
-    
-.ytd-watch-flexy
-,
-
-    
-.ytp-iv-player-content
- {
-
-        background: transparent !important
-    }
-
-
-
-    
-.ytd-channel-name
- 
-.yt-simple-endpoint
-,
-
-    
-.ytd-comment-renderer
-,
-
-    ytd-author-comment-badge-renderer 
-.ytd-channel-name
- {
-
-        
-/* bug fix */
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-
-
-    
-#guide-wrapper.ytd-app
- {
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-        border-radius: 10px;
-
-    }
-
-
-
-    
-#cinematics
->div
-:nth-child
-(1) {
-
-        display: none !important;
-
-    }
-
-
-
-    
-#cinematics
- {
-
-        background: transparent !important;
-
-    }
-
-    
-.tp-yt-iron-dropdown
- {
-
-        background: rgba(255, 255, 255, .8) !important;
-
-        border-radius: 10px
-    }
-
-
-
-    tp-yt-paper-dialog
-.style-scope
- {
-
-        background: rgba(244, 244, 244, .83) !important;
-
-        border-radius: 10px
-    }
-
-    
-#about-container
- 
-#links-section
- 
-#link-list-container
- yt-channel-external-link-view-model div span a {
-
-        color: #000 !important;
-
-    }
-
-    table
-.ytd-about-channel-renderer
- tbody tr td a {
-
-        color: #000 !important;
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-    }
-
-    ytd-engagement-panel-title-header-renderer[
-modern-panels
-]
-:not
-([
-ads-semantic-text
-]) 
-#title-text.ytd-engagement-panel-title-header-renderer
- {
-
-        color: #000 !important;
-
-    }
-
-
-
-    
-#vote-count-middle.ytd-comment-action-buttons-renderer
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-    
-.ytSearchboxComponentInputBox
- {
-
-        background-color: #f4ebeb3d !important;
-
-        border-color: #5b8bb036 !important;
-
-        box-shadow: none !important
-    }
-
-    
-.ytSearchboxComponentSearchButton
- {
-
-        color: #cdcdcd !important;
-
-        background: #ffffff24 !important;
-
-        border-color: #7fa9ac8a !important;
-
-    }
-
-
-
-    
-#share-panel-header
- div yt-community-post-section-renderer div {
-
-        color: #000 !important;
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-    }
-
-    
-#share-panel-header
- div yt-community-post-section-renderer div yt-button-renderer yt-button-shape button div span {
-
-        color: #000 !important;
-
-        text-shadow: none;
-
-    }
-
-    
-#title.yt-share-panel-title-v15-renderer
- {
-
-        color: #000 !important;
-
-        text-shadow: none;
-
-    }
-
-    yt-share-target-renderer 
-.yt-share-target-renderer
-[
-style-target
-="title"] {
-
-        #title.yt-share-panel-title-v15-renderer {
-
-            color: #000 !important;
-
-            text-shadow: none;
-
-        }
-
-    }
-
-
-
-    
-#above-the-fold
- div h1 yt-formatted-string {
-
-        
-/*tittle video page*/
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-    
-#above-the-fold
- div div ytd-video-owner-renderer yt-formatted-string {
-
-        
-/*sub count video page*/
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-
-
-    
-#above-the-fold
- div div ytd-video-owner-renderer div ytd-channel-name div div yt-formatted-string a {
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-
-
-    
-#above-the-fold
- div div ytd-video-owner-renderer div ytd-badge-supported-renderer div yt-icon span div svg {
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-}
-/*FOR YOUTUBE*/
+/*FOR YOUTUBE AND YTMUSIC*/
 @-moz-document domain("youtube.com") {
+  html {
+    background: rgba(0, 0, 0, 0.19) !important;
 
+    backdrop-filter: blur(8.6px) !important;
 
-    html {
+    width: 100vw !important;
 
+    height: 100vh !important;
+  }
 
-        background: rgba(0, 0, 0, 0.19) !important;
+  body {
+    background: rgba(0, 0, 0, 0) !important;
 
+    backdrop-filter: none !important;
+  }
 
-        backdrop-filter: blur(8.6px) !important;
+  #background {
+    background: rgba(22, 22, 23, 0.8) !important;
 
+    backdrop-filter: saturate(1800%) blur(20px);
+  }
 
-        width: 100vw !important;
+  #contentContainer {
+    background: rgba(0, 0, 0, 0) !important;
 
+    backdrop-filter: blur(8.6px) !important;
+  }
 
-        height: 100vh !important;
+  ytd-app {
+    background: rgba(0, 0, 0, 0) !important;
+  }
 
+  #contentWrapper {
+    background: rgba(22, 22, 23, 0.8) !important;
 
-    }
+    backdrop-filter: saturate(180%) blur(20px);
 
+    border-radius: 10px;
+  }
 
-    body {
+  .style-scope {
+    background: rgba(0, 0, 0, 0) !important;
+  }
 
+  #chips-wrapper {
+    background: rgba(22, 22, 23, 0.8) !important;
 
-        background: rgba(0, 0, 0, 0) !important;
+    backdrop-filter: saturate(180%0%) blur(20px);
+  }
 
+  #text {
+    color: #fff !important;
+  }
 
-        backdrop-filter: none !important;
+  #right-arrow::before {
+    background: none !important;
+  }
 
-
-    }
-
-
-    #background {
-
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(1800%) blur(20px);
-
-
-    }
-
-
-
-
-    #contentContainer {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-        backdrop-filter: blur(8.6px) !important;
-    }
-
-
-    ytd-app {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-    }
-
-
-    #contentWrapper {
-
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-
-        border-radius: 10px;
-    }
-
-
-    .style-scope {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-    }
-
-
-    #chips-wrapper {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(180%0%) blur(20px);
-
-
-
-    }
-
-
-    #text {
-        color: #fff !important;
-    }
-
-
-    #right-arrow::before {
-        background: none !important;
-
-
-    }
-
-
-    /*
-#logo.ytd-topbar-logo-renderer,
-
-
-ytd-yoodle-renderer.ytd-topbar-logo-renderer {
-
-
-    
-
-
-}*/
-
-
-    #country-code.ytd-topbar-logo-renderer {
-
-
-        display: none !important
-    }
-
-
-    .style-scope tp-yt-app-drawer {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-    }
-
-
-    .watch-main-col {
-
-
-        display: none !important
-    }
-
-
-    #buttons.ytd-masthead>.ytd-masthead:first-child {
-
-
-        display: none !important
-    }
-
-
-    .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
-
-
-        display: none !important
-    }
-
-
-    #sponsor-button.ytd-video-owner-renderer:not(:empty) {
-
-
-        display: none !important
-    }
-
-
-
-
-
-
-
-
-    /* Replies btn */
-
-
-    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
-
-
-        color: #fdfdfd !important;
-
-
-        border-color: rgb(36, 94, 121) !important;
-
-
-    }
-
-
-
-
-    /* comment color */
-
-
-    #content-text.ytd-comment-view-model {
-
-
-        color: #fff;
-
-
-        text-shadow: 0px 0px 2px #1336484d;
-
-
-    }
-
-
-
-
-    #description .yt-core-attributed-string__link {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-
-    }
-
-
-    .yt-core-attributed-string--white-space-no-wrap {
-
-
-        color: #fff !important;
-
-
-
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-
-    }
-
-
-    span.yt-core-attributed-string--white-space-no-wrap {
-
-
-        color: rgb(240, 247, 246) !important;
-
-
-        border-color: rgb(0, 0, 0) !important;
-
-
-        text-shadow: 0px 0px 2px #00070bb3 !important;
-
-
-    }
-
-
-    #vote-count-middle.ytd-comment-engagement-bar {
-
-
-        color: rgb(0, 0, 0) !important;
-
-
-        border-color: rgb(255, 255, 255) !important;
-
-
-    }
-
-
-    .ytd-subscribe-button-renderer {
-
-
-        display: none !important
-    }
-
-
-
-
-    /* To be done
-
-
-ytd-subscription-notification-toggle-button-renderer-next
-
-
->div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
-
-
-    color: rgb(0, 0, 0) !important;
-
-
-}
-
-
-*/
-
-
-    .yt-core-attributed-string--link-inherit-color {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    .yt-core-attributed-string__link {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    #description-text,
-    #subtitle {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    #metadata-line,
-    .truncated-text-wiz__truncated-text-content {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    .style-scope ytd-watch-metadata {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-
-
-    .ytd-thumbnail-overlay-resume-playback-renderer {
-
-
-        /* text and hyperlinks */
-
-
-        background-color: #d3e9ee !important;
-
-
-    }
-
-
-    #video-title,
-    #title,
-    .dynamic-text-view-model-wiz__h1 {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-    .yt-tab-shape-wiz__tab {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-
-
-    #label {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-
-
-    ytd-badge-supported-renderer.ytd-channel-name div yt-icon span div svg {
-
-
-        color: #fff;
-
-
-    }
-
-
-
-
-    #label.ytd-compact-link-renderer,
-    #subtitle.ytd-compact-link-renderer,
-    #label.ytd-toggle-theme-compact-link-renderer,
-    yt-formatted-string[ellipsis-truncate-styling] a.yt-formatted-string:last-child,
-    yt-formatted-string[ellipsis-truncate-styling] span.yt-formatted-string:last-child {
-
-
-        color: #ffffff !important;
-
-
-    }
-
-
-    .yt-simple-endpoint {
-
-
-        /* text and hyperlinks */
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-    ytd-info-panel-container-renderer[title-style="LINK"] .title.ytd-info-panel-container-renderer,
-
-
-    .link-icon.ytd-info-panel-container-renderer {
-
-
-        color: #000 !important;
-
-
-        border-color: rgb(255, 255, 255) !important;
-
-
-    }
-
-
-
-
-    .yt-core-attributed-string__link,
-
-
-    #owner-sub-count,
-
-
-    #channel-name,
-
-
-    yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
-
-
-    .ytd-video-meta-block .inline-metadata-item:nth-child(3n) {
-
-
-        /* text and hyperlinks */
-
-
-        color: #d8edf0 !important;
-
-
-        border-color: rgb(255, 255, 255) !important;
-
-
-    }
-
-
-    .html5-video-player,
-
-
-    .html5-video-container,
-
-
-    .ytp-player-content ytp-iv-player-content {
-
-
-        background-color: transparent !important;
-
-
-    }
-
-
-
-
-    .ytd-watch-flexy,
-
-
-    .ytp-iv-player-content {
-
-
-        background: transparent !important
-    }
-
-
-
-
-    .ytd-channel-name .yt-simple-endpoint,
-
-
-    .ytd-comment-renderer,
-
-
-    ytd-author-comment-badge-renderer .ytd-channel-name {
-
-
-        /* bug fix */
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-
-
-    #guide-wrapper.ytd-app {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-
-        border-radius: 10px;
-
-
-    }
-
-
-
-
-    #cinematics>div:nth-child(1) {
-
-
-        display: none !important;
-
-
-    }
-
-
-
-
-    #cinematics {
-
-
-        background: transparent !important;
-
-
-    }
-
-
-    .tp-yt-iron-dropdown {
-
-
-        background: rgba(255, 255, 255, .8) !important;
-
-
-        border-radius: 10px
-    }
-
-
-
-
-    tp-yt-paper-dialog.style-scope {
-
-
-        background: rgba(244, 244, 244, .83) !important;
-
-
-        border-radius: 10px
-    }
-
-
-    #about-container #links-section #link-list-container yt-channel-external-link-view-model div span a {
-
-
-        color: #000 !important;
-
-
-    }
-
-
-    table.ytd-about-channel-renderer tbody tr td a {
-
-
-        color: #000 !important;
-
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-
-    }
-
-
-    ytd-engagement-panel-title-header-renderer[modern-panels]:not([ads-semantic-text]) #title-text.ytd-engagement-panel-title-header-renderer {
-
-
-        color: #000 !important;
-
-
-    }
-
-
-
-
-    #vote-count-middle.ytd-comment-action-buttons-renderer {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-    .ytSearchboxComponentInputBox {
-
-
-        background-color: #f4ebeb3d !important;
-
-
-        border-color: #5b8bb036 !important;
-
-
-        box-shadow: none !important
-    }
-
-
-    .ytSearchboxComponentSearchButton {
-
-
-        color: #cdcdcd !important;
-
-
-        background: #ffffff24 !important;
-
-
-        border-color: #7fa9ac8a !important;
-
-
-    }
-
-
-
-
-    #share-panel-header div yt-community-post-section-renderer div {
-
-
-        color: #000 !important;
-
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-
-    }
-
-
-    #share-panel-header div yt-community-post-section-renderer div yt-button-renderer yt-button-shape button div span {
-
-
-        color: #000 !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-    #title.yt-share-panel-title-v15-renderer {
-
-
-        color: #000 !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-    yt-share-target-renderer .yt-share-target-renderer[style-target="title"] {
-
-
-        #title.yt-share-panel-title-v15-renderer {
-
-
-            color: #000 !important;
-
-
-            text-shadow: none;
-
-
-        }
-
-
-    }
-
-
-
-
-    #above-the-fold div h1 yt-formatted-string {
-
-
-        /*tittle video page*/
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-    #above-the-fold div div ytd-video-owner-renderer yt-formatted-string {
-
-
-        /*sub count video page*/
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-
-
-    #above-the-fold div div ytd-video-owner-renderer div ytd-channel-name div div yt-formatted-string a {
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-
-
-    #above-the-fold div div ytd-video-owner-renderer div ytd-badge-supported-renderer div yt-icon span div svg {
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-}FOR YOUTUBE/ @-moz-document domain("youtube.com") {    html {
-
-        background: rgba(0, 0, 0, 0.19) !important;
-
-        backdrop-filter: blur(8.6px) !important;
-
-        width: 100vw !important;
-
-        height: 100vh !important;
-
-    }
-
-    body {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-        backdrop-filter: none !important;
-
-    }
-
-    
-#background
- {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(1800%) blur(20px);
-
-    }
-
-
-
-    
-#contentContainer
- {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-        backdrop-filter: blur(8.6px) !important;
-    }
-
-    ytd-app {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-    }
-
-    
-#contentWrapper
- {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-        border-radius: 10px;
-    }
-
-    
-.style-scope
- {
-
-        background: rgba(0, 0, 0, 0) !important;
-
-    }
-
-    
-#chips-wrapper
- {
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(180%0%) blur(20px);
-
-
-    }
-
-    
-#text
- {
-        color: #fff !important;
-    }
-
-    
-#right-arrow::before
- {
-        background: none !important;
-
-    }
-
-    
-/*
+  /*
 #logo.ytd-topbar-logo-renderer,
 
 ytd-yoodle-renderer.ytd-topbar-logo-renderer {
 
-    
+    
 
 }*/
 
-    
-#country-code.ytd-topbar-logo-renderer
- {
+  #country-code.ytd-topbar-logo-renderer {
+    display: none !important;
+  }
 
-        display: none !important
-    }
+  .style-scope tp-yt-app-drawer {
+    background: rgba(0, 0, 0, 0) !important;
+  }
 
-    
-.style-scope
- tp-yt-app-drawer {
+  .watch-main-col {
+    display: none !important;
+  }
 
-        background: rgba(0, 0, 0, 0) !important;
-    }
+  #buttons.ytd-masthead > .ytd-masthead:first-child {
+    display: none !important;
+  }
 
-    
-.watch-main-col
- {
+  .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
+    display: none !important;
+  }
 
-        display: none !important
-    }
+  #sponsor-button.ytd-video-owner-renderer:not(:empty) {
+    display: none !important;
+  }
 
-    
-#buttons.ytd-masthead
->
-.ytd-masthead:first-child
- {
+  /* Replies btn */
 
-        display: none !important
-    }
+  .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
+    color: #fdfdfd !important;
 
-    
-.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text
- {
+    border-color: rgb(36, 94, 121) !important;
+  }
 
-        display: none !important
-    }
+  /* comment color */
 
-    
-#sponsor-button.ytd-video-owner-renderer:not
-(
-:empty
-) {
+  #content-text.ytd-comment-view-model {
+    color: #fff;
 
-        display: none !important
-    }
+    text-shadow: 0px 0px 2px #1336484d;
+  }
 
+  #description .yt-core-attributed-string__link {
+    color: #fff !important;
 
+    text-shadow: 0px 0px 2px #1336484d !important;
+  }
 
+  .yt-core-attributed-string--white-space-no-wrap {
+    color: #fff !important;
 
+    text-shadow: 0px 0px 2px #1336484d !important;
+  }
 
+  span.yt-core-attributed-string--white-space-no-wrap {
+    color: rgb(240, 247, 246) !important;
 
+    border-color: rgb(0, 0, 0) !important;
 
-    
-/* Replies btn */
+    text-shadow: 0px 0px 2px #00070bb3 !important;
+  }
 
-    
-.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text
- {
+  #vote-count-middle.ytd-comment-engagement-bar {
+    color: rgb(0, 0, 0) !important;
 
-        color: #fdfdfd !important;
+    border-color: rgb(255, 255, 255) !important;
+  }
 
-        border-color: rgb(36, 94, 121) !important;
+  .ytd-subscribe-button-renderer {
+    display: none !important;
+  }
 
-    }
-
-
-
-    
-/* comment color */
-
-    
-#content-text.ytd-comment-view-model
- {
-
-        color: #fff;
-
-        text-shadow: 0px 0px 2px #1336484d;
-
-    }
-
-
-
-    
-#description
- 
-.yt-core-attributed-string__link
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-    }
-
-    
-.yt-core-attributed-string--white-space-no-wrap
- {
-
-        color: #fff !important;
-
-
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-    }
-
-    span
-.yt-core-attributed-string--white-space-no-wrap
- {
-
-        color: rgb(240, 247, 246) !important;
-
-        border-color: rgb(0, 0, 0) !important;
-
-        text-shadow: 0px 0px 2px #00070bb3 !important;
-
-    }
-
-    
-#vote-count-middle.ytd-comment-engagement-bar
- {
-
-        color: rgb(0, 0, 0) !important;
-
-        border-color: rgb(255, 255, 255) !important;
-
-    }
-
-    
-.ytd-subscribe-button-renderer
- {
-
-        display: none !important
-    }
-
-
-
-    
-/* To be done
+  /* To be done
 
 ytd-subscription-notification-toggle-button-renderer-next
 
 >div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
 
-    color: rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0) !important;
 
 }
 
 */
 
-    
-.yt-core-attributed-string--link-inherit-color
- {
+  .yt-core-attributed-string--link-inherit-color {
+    color: #d3e9ee !important;
+  }
+
+  .yt-core-attributed-string__link {
+    color: #d3e9ee !important;
+  }
+
+  #description-text,
+  #subtitle {
+    color: #d3e9ee !important;
+  }
 
-        color: #d3e9ee !important;
+  #metadata-line,
+  .truncated-text-wiz__truncated-text-content {
+    color: #d3e9ee !important;
+  }
 
-    }
+  .style-scope ytd-watch-metadata {
+    color: #d3e9ee !important;
+  }
 
-    
-.yt-core-attributed-string__link
- {
+  .ytd-thumbnail-overlay-resume-playback-renderer {
+    /* text and hyperlinks */
 
-        color: #d3e9ee !important;
+    background-color: #d3e9ee !important;
+  }
 
-    }
+  #video-title,
+  #title,
+  .dynamic-text-view-model-wiz__h1 {
+    color: #fff !important;
 
-    
-#description-text
-,
-    
-#subtitle
- {
+    text-shadow: 0px 0px 2px #0000004f;
+  }
 
-        color: #d3e9ee !important;
+  .yt-tab-shape-wiz__tab {
+    color: #fff !important;
 
-    }
+    text-shadow: 0px 0px 2px #0000004f;
+  }
 
-    
-#metadata-line
-,
-    
-.truncated-text-wiz__truncated-text-content
- {
+  #label {
+    color: #fff !important;
 
-        color: #d3e9ee !important;
+    text-shadow: 0px 0px 2px #0000004f;
+  }
 
-    }
+  ytd-badge-supported-renderer.ytd-channel-name div yt-icon span div svg {
+    color: #fff;
+  }
 
-    
-.style-scope
- ytd-watch-metadata {
+  #label.ytd-compact-link-renderer,
+  #subtitle.ytd-compact-link-renderer,
+  #label.ytd-toggle-theme-compact-link-renderer,
+  yt-formatted-string[ellipsis-truncate-styling]
+    a.yt-formatted-string:last-child,
+  yt-formatted-string[ellipsis-truncate-styling]
+    span.yt-formatted-string:last-child {
+    color: #ffffff !important;
+  }
+
+  .yt-simple-endpoint {
+    /* text and hyperlinks */
 
-        color: #d3e9ee !important;
+    color: #fff !important;
 
-    }
+    text-shadow: 0px 0px 2px #0000004f;
+  }
 
+  ytd-info-panel-container-renderer[title-style="LINK"]
+    .title.ytd-info-panel-container-renderer,
+  .link-icon.ytd-info-panel-container-renderer {
+    color: #000 !important;
 
+    border-color: rgb(255, 255, 255) !important;
+  }
 
-    
-.ytd-thumbnail-overlay-resume-playback-renderer
- {
+  .yt-core-attributed-string__link,
+  #owner-sub-count,
+  #channel-name,
+  yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
+  .ytd-video-meta-block .inline-metadata-item:nth-child(3n) {
+    /* text and hyperlinks */
 
-        
-/* text and hyperlinks */
+    color: #d8edf0 !important;
 
-        background-color: #d3e9ee !important;
+    border-color: rgb(255, 255, 255) !important;
+  }
 
-    }
+  .html5-video-player,
+  .html5-video-container,
+  .ytp-player-content ytp-iv-player-content {
+    background-color: transparent !important;
+  }
 
-    
-#video-title
-,
-    
-#title
-,
-    
-.dynamic-text-view-model-wiz__h1
- {
+  .ytd-watch-flexy,
+  .ytp-iv-player-content {
+    background: transparent !important;
+  }
 
-        color: #fff !important;
+  .ytd-channel-name .yt-simple-endpoint,
+  .ytd-comment-renderer,
+  ytd-author-comment-badge-renderer .ytd-channel-name {
+    /* bug fix */
 
-        text-shadow: 0px 0px 2px #0000004f;
+    color: #fff !important;
 
-    }
+    text-shadow: 0px 0px 2px #0000004f;
+  }
 
-    
-.yt-tab-shape-wiz__tab
- {
+  #guide-wrapper.ytd-app {
+    background: rgba(22, 22, 23, 0.8) !important;
 
-        color: #fff !important;
+    backdrop-filter: saturate(180%) blur(20px);
 
-        text-shadow: 0px 0px 2px #0000004f;
+    border-radius: 10px;
+  }
 
-    }
+  #cinematics > div:nth-child(1) {
+    display: none !important;
+  }
 
+  #cinematics {
+    background: transparent !important;
+  }
 
+  .tp-yt-iron-dropdown {
+    background: rgba(255, 255, 255, 0.8) !important;
 
-    
-#label
- {
+    border-radius: 10px;
+  }
 
-        color: #fff !important;
+  tp-yt-paper-dialog.style-scope {
+    background: rgba(244, 244, 244, 0.83) !important;
 
-        text-shadow: 0px 0px 2px #0000004f;
+    border-radius: 10px;
+  }
 
-    }
+  #about-container
+    #links-section
+    #link-list-container
+    yt-channel-external-link-view-model
+    div
+    span
+    a {
+    color: #000 !important;
+  }
 
+  table.ytd-about-channel-renderer tbody tr td a {
+    color: #000 !important;
 
+    text-shadow: 0px 0px 0px #0000004f;
+  }
 
-    ytd-badge-supported-renderer
-.ytd-channel-name
- div yt-icon span div svg {
+  ytd-engagement-panel-title-header-renderer[modern-panels]:not(
+      [ads-semantic-text]
+    )
+    #title-text.ytd-engagement-panel-title-header-renderer {
+    color: #000 !important;
+  }
 
-        color: #fff;
+  #vote-count-middle.ytd-comment-action-buttons-renderer {
+    color: #fff !important;
 
-    }
+    text-shadow: 0px 0px 2px #0000004f;
+  }
 
+  .ytSearchboxComponentInputBox {
+    background-color: #f4ebeb3d !important;
 
+    border-color: #5b8bb036 !important;
 
-    
-#label.ytd-compact-link-renderer
-,
-    
-#subtitle.ytd-compact-link-renderer
-,
-    
-#label.ytd-toggle-theme-compact-link-renderer
-,
-    yt-formatted-string[
-ellipsis-truncate-styling
-] a
-.yt-formatted-string:last-child
-,
-    yt-formatted-string[
-ellipsis-truncate-styling
-] span
-.yt-formatted-string:last-child
- {
+    box-shadow: none !important;
+  }
 
-        color: #ffffff !important;
+  .ytSearchboxComponentSearchButton {
+    color: #cdcdcd !important;
 
-    }
+    background: #ffffff24 !important;
 
-    
-.yt-simple-endpoint
- {
+    border-color: #7fa9ac8a !important;
+  }
 
-        
-/* text and hyperlinks */
+  #share-panel-header div yt-community-post-section-renderer div {
+    color: #000 !important;
 
-        color: #fff !important;
+    text-shadow: 0px 0px 0px #0000004f;
+  }
 
-        text-shadow: 0px 0px 2px #0000004f;
+  #share-panel-header
+    div
+    yt-community-post-section-renderer
+    div
+    yt-button-renderer
+    yt-button-shape
+    button
+    div
+    span {
+    color: #000 !important;
 
-    }
+    text-shadow: none;
+  }
 
-    ytd-info-panel-container-renderer[
-title-style
-="LINK"] 
-.title.ytd-info-panel-container-renderer
-,
+  #title.yt-share-panel-title-v15-renderer {
+    color: #000 !important;
 
-    
-.link-icon.ytd-info-panel-container-renderer
- {
+    text-shadow: none;
+  }
 
-        color: #000 !important;
+  yt-share-target-renderer .yt-share-target-renderer[style-target="title"] {
+    #title.yt-share-panel-title-v15-renderer {
+      color: #000 !important;
 
-        border-color: rgb(255, 255, 255) !important;
+      text-shadow: none;
+    }
+  }
 
-    }
+  #above-the-fold div h1 yt-formatted-string {
+    /*tittle video page*/
 
+    color: #ffffff !important;
 
+    text-shadow: none;
+  }
 
-    
-.yt-core-attributed-string__link
-,
+  #above-the-fold div div ytd-video-owner-renderer yt-formatted-string {
+    /*sub count video page*/
 
-    
-#owner-sub-count
-,
+    color: #ffffff !important;
 
-    
-#channel-name
-,
+    text-shadow: none;
+  }
 
-    yt-formatted-string
-.ytd-channel-name
- 
-.yt-simple-endpoint
-,
+  #above-the-fold
+    div
+    div
+    ytd-video-owner-renderer
+    div
+    ytd-channel-name
+    div
+    div
+    yt-formatted-string
+    a {
+    color: #ffffff !important;
 
-    
-.ytd-video-meta-block
- 
-.inline-metadata-item:nth-child
-(3n) {
+    text-shadow: none;
+  }
 
-        
-/* text and hyperlinks */
+  #above-the-fold
+    div
+    div
+    ytd-video-owner-renderer
+    div
+    ytd-badge-supported-renderer
+    div
+    yt-icon
+    span
+    div
+    svg {
+    color: #ffffff !important;
 
-        color: #d8edf0 !important;
+    text-shadow: none;
+  }
 
-        border-color: rgb(255, 255, 255) !important;
+  /*FOR REMOVING THE GRADIENT BACKGROUNT IMG*/
+  .style-scope ytmusic-fullbleed-thumbnail-renderer {
+    width: 0%;
+    height: 0%;
+  }
 
-    }
+  #nav-bar-background {
+    background: rgba(22, 22, 23, 0.8) !important;
 
-    
-.html5-video-player
-,
-
-    
-.html5-video-container
-,
-
-    
-.ytp-player-content
- ytp-iv-player-content {
-
-        background-color: transparent !important;
-
-    }
-
-
-
-    
-.ytd-watch-flexy
-,
-
-    
-.ytp-iv-player-content
- {
-
-        background: transparent !important
-    }
-
-
-
-    
-.ytd-channel-name
- 
-.yt-simple-endpoint
-,
-
-    
-.ytd-comment-renderer
-,
-
-    ytd-author-comment-badge-renderer 
-.ytd-channel-name
- {
-
-        
-/* bug fix */
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-
-
-    
-#guide-wrapper.ytd-app
- {
-
-        background: rgba(22, 22, 23, .8) !important;
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-        border-radius: 10px;
-
-    }
-
-
-
-    
-#cinematics
->div
-:nth-child
-(1) {
-
-        display: none !important;
-
-    }
-
-
-
-    
-#cinematics
- {
-
-        background: transparent !important;
-
-    }
-
-    
-.tp-yt-iron-dropdown
- {
-
-        background: rgba(255, 255, 255, .8) !important;
-
-        border-radius: 10px
-    }
-
-
-
-    tp-yt-paper-dialog
-.style-scope
- {
-
-        background: rgba(244, 244, 244, .83) !important;
-
-        border-radius: 10px
-    }
-
-    
-#about-container
- 
-#links-section
- 
-#link-list-container
- yt-channel-external-link-view-model div span a {
-
-        color: #000 !important;
-
-    }
-
-    table
-.ytd-about-channel-renderer
- tbody tr td a {
-
-        color: #000 !important;
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-    }
-
-    ytd-engagement-panel-title-header-renderer[
-modern-panels
-]
-:not
-([
-ads-semantic-text
-]) 
-#title-text.ytd-engagement-panel-title-header-renderer
- {
-
-        color: #000 !important;
-
-    }
-
-
-
-    
-#vote-count-middle.ytd-comment-action-buttons-renderer
- {
-
-        color: #fff !important;
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-    }
-
-    
-.ytSearchboxComponentInputBox
- {
-
-        background-color: #f4ebeb3d !important;
-
-        border-color: #5b8bb036 !important;
-
-        box-shadow: none !important
-    }
-
-    
-.ytSearchboxComponentSearchButton
- {
-
-        color: #cdcdcd !important;
-
-        background: #ffffff24 !important;
-
-        border-color: #7fa9ac8a !important;
-
-    }
-
-
-
-    
-#share-panel-header
- div yt-community-post-section-renderer div {
-
-        color: #000 !important;
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-    }
-
-    
-#share-panel-header
- div yt-community-post-section-renderer div yt-button-renderer yt-button-shape button div span {
-
-        color: #000 !important;
-
-        text-shadow: none;
-
-    }
-
-    
-#title.yt-share-panel-title-v15-renderer
- {
-
-        color: #000 !important;
-
-        text-shadow: none;
-
-    }
-
-    yt-share-target-renderer 
-.yt-share-target-renderer
-[
-style-target
-="title"] {
-
-        #title.yt-share-panel-title-v15-renderer {
-
-            color: #000 !important;
-
-            text-shadow: none;
-
-        }
-
-    }
-
-
-
-    
-#above-the-fold
- div h1 yt-formatted-string {
-
-        
-/*tittle video page*/
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-    
-#above-the-fold
- div div ytd-video-owner-renderer yt-formatted-string {
-
-        
-/*sub count video page*/
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-
-
-    
-#above-the-fold
- div div ytd-video-owner-renderer div ytd-channel-name div div yt-formatted-string a {
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-
-
-    
-#above-the-fold
- div div ytd-video-owner-renderer div ytd-badge-supported-renderer div yt-icon span div svg {
-
-        color: #ffffff !important;
-
-        text-shadow: none;
-
-    }
-
-}
-/*FOR YOUTUBE*/
-@-moz-document domain("youtube.com") {
-
-
-    html {
-
-
-        background: rgba(0, 0, 0, 0.19) !important;
-
-
-        backdrop-filter: blur(8.6px) !important;
-
-
-        width: 100vw !important;
-
-
-        height: 100vh !important;
-
-
-    }
-
-
-    body {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-        backdrop-filter: none !important;
-
-
-    }
-
-
-    #background {
-
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(1800%) blur(20px);
-
-
-    }
-
-
-
-
-    #contentContainer {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-        backdrop-filter: blur(8.6px) !important;
-    }
-
-
-    ytd-app {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-    }
-
-
-    #contentWrapper {
-
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-
-        border-radius: 10px;
-    }
-
-
-    .style-scope {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-
-
-    }
-
-
-    #chips-wrapper {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(180%0%) blur(20px);
-
-
-
-    }
-
-
-    #text {
-        color: #fff !important;
-    }
-
-
-    #right-arrow::before {
-        background: none !important;
-
-
-    }
-
-
-    /*
-#logo.ytd-topbar-logo-renderer,
-
-
-ytd-yoodle-renderer.ytd-topbar-logo-renderer {
-
-
-    
-
-
-}*/
-
-
-    #country-code.ytd-topbar-logo-renderer {
-
-
-        display: none !important
-    }
-
-
-    .style-scope tp-yt-app-drawer {
-
-
-        background: rgba(0, 0, 0, 0) !important;
-    }
-
-
-    .watch-main-col {
-
-
-        display: none !important
-    }
-
-
-    #buttons.ytd-masthead>.ytd-masthead:first-child {
-
-
-        display: none !important
-    }
-
-
-    .yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
-
-
-        display: none !important
-    }
-
-
-    #sponsor-button.ytd-video-owner-renderer:not(:empty) {
-
-
-        display: none !important
-    }
-
-
-
-
-
-
-
-
-    /* Replies btn */
-
-
-    .yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
-
-
-        color: #fdfdfd !important;
-
-
-        border-color: rgb(36, 94, 121) !important;
-
-
-    }
-
-
-
-
-    /* comment color */
-
-
-    #content-text.ytd-comment-view-model {
-
-
-        color: #fff;
-
-
-        text-shadow: 0px 0px 2px #1336484d;
-
-
-    }
-
-
-
-
-    #description .yt-core-attributed-string__link {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-
-    }
-
-
-    .yt-core-attributed-string--white-space-no-wrap {
-
-
-        color: #fff !important;
-
-
-
-
-        text-shadow: 0px 0px 2px #1336484d !important;
-
-
-    }
-
-
-    span.yt-core-attributed-string--white-space-no-wrap {
-
-
-        color: rgb(240, 247, 246) !important;
-
-
-        border-color: rgb(0, 0, 0) !important;
-
-
-        text-shadow: 0px 0px 2px #00070bb3 !important;
-
-
-    }
-
-
-    #vote-count-middle.ytd-comment-engagement-bar {
-
-
-        color: rgb(0, 0, 0) !important;
-
-
-        border-color: rgb(255, 255, 255) !important;
-
-
-    }
-
-
-    .ytd-subscribe-button-renderer {
-
-
-        display: none !important
-    }
-
-
-
-
-    /* To be done
-
-
-ytd-subscription-notification-toggle-button-renderer-next
-
-
->div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
-
-
-    color: rgb(0, 0, 0) !important;
-
-
-}
-
-
-*/
-
-
-    .yt-core-attributed-string--link-inherit-color {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    .yt-core-attributed-string__link {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    #description-text,
-    #subtitle {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    #metadata-line,
-    .truncated-text-wiz__truncated-text-content {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-    .style-scope ytd-watch-metadata {
-
-
-        color: #d3e9ee !important;
-
-
-    }
-
-
-
-
-    .ytd-thumbnail-overlay-resume-playback-renderer {
-
-
-        /* text and hyperlinks */
-
-
-        background-color: #d3e9ee !important;
-
-
-    }
-
-
-    #video-title,
-    #title,
-    .dynamic-text-view-model-wiz__h1 {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-    .yt-tab-shape-wiz__tab {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-
-
-    #label {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-
-
-    ytd-badge-supported-renderer.ytd-channel-name div yt-icon span div svg {
-
-
-        color: #fff;
-
-
-    }
-
-
-
-
-    #label.ytd-compact-link-renderer,
-    #subtitle.ytd-compact-link-renderer,
-    #label.ytd-toggle-theme-compact-link-renderer,
-    yt-formatted-string[ellipsis-truncate-styling] a.yt-formatted-string:last-child,
-    yt-formatted-string[ellipsis-truncate-styling] span.yt-formatted-string:last-child {
-
-
-        color: #ffffff !important;
-
-
-    }
-
-
-    .yt-simple-endpoint {
-
-
-        /* text and hyperlinks */
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-    ytd-info-panel-container-renderer[title-style="LINK"] .title.ytd-info-panel-container-renderer,
-
-
-    .link-icon.ytd-info-panel-container-renderer {
-
-
-        color: #000 !important;
-
-
-        border-color: rgb(255, 255, 255) !important;
-
-
-    }
-
-
-
-
-    .yt-core-attributed-string__link,
-
-
-    #owner-sub-count,
-
-
-    #channel-name,
-
-
-    yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
-
-
-    .ytd-video-meta-block .inline-metadata-item:nth-child(3n) {
-
-
-        /* text and hyperlinks */
-
-
-        color: #d8edf0 !important;
-
-
-        border-color: rgb(255, 255, 255) !important;
-
-
-    }
-
-
-    .html5-video-player,
-
-
-    .html5-video-container,
-
-
-    .ytp-player-content ytp-iv-player-content {
-
-
-        background-color: transparent !important;
-
-
-    }
-
-
-
-
-    .ytd-watch-flexy,
-
-
-    .ytp-iv-player-content {
-
-
-        background: transparent !important
-    }
-
-
-
-
-    .ytd-channel-name .yt-simple-endpoint,
-
-
-    .ytd-comment-renderer,
-
-
-    ytd-author-comment-badge-renderer .ytd-channel-name {
-
-
-        /* bug fix */
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-
-
-    #guide-wrapper.ytd-app {
-
-
-        background: rgba(22, 22, 23, .8) !important;
-
-
-        backdrop-filter: saturate(180%) blur(20px);
-
-
-
-        border-radius: 10px;
-
-
-    }
-
-
-
-
-    #cinematics>div:nth-child(1) {
-
-
-        display: none !important;
-
-
-    }
-
-
-
-
-    #cinematics {
-
-
-        background: transparent !important;
-
-
-    }
-
-
-    .tp-yt-iron-dropdown {
-
-
-        background: rgba(255, 255, 255, .8) !important;
-
-
-        border-radius: 10px
-    }
-
-
-
-
-    tp-yt-paper-dialog.style-scope {
-
-
-        background: rgba(244, 244, 244, .83) !important;
-
-
-        border-radius: 10px
-    }
-
-
-    #about-container #links-section #link-list-container yt-channel-external-link-view-model div span a {
-
-
-        color: #000 !important;
-
-
-    }
-
-
-    table.ytd-about-channel-renderer tbody tr td a {
-
-
-        color: #000 !important;
-
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-
-    }
-
-
-    ytd-engagement-panel-title-header-renderer[modern-panels]:not([ads-semantic-text]) #title-text.ytd-engagement-panel-title-header-renderer {
-
-
-        color: #000 !important;
-
-
-    }
-
-
-
-
-    #vote-count-middle.ytd-comment-action-buttons-renderer {
-
-
-        color: #fff !important;
-
-
-        text-shadow: 0px 0px 2px #0000004f;
-
-
-    }
-
-
-    .ytSearchboxComponentInputBox {
-
-
-        background-color: #f4ebeb3d !important;
-
-
-        border-color: #5b8bb036 !important;
-
-
-        box-shadow: none !important
-    }
-
-
-    .ytSearchboxComponentSearchButton {
-
-
-        color: #cdcdcd !important;
-
-
-        background: #ffffff24 !important;
-
-
-        border-color: #7fa9ac8a !important;
-
-
-    }
-
-
-
-
-    #share-panel-header div yt-community-post-section-renderer div {
-
-
-        color: #000 !important;
-
-
-        text-shadow: 0px 0px 0px #0000004f;
-
-
-    }
-
-
-    #share-panel-header div yt-community-post-section-renderer div yt-button-renderer yt-button-shape button div span {
-
-
-        color: #000 !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-    #title.yt-share-panel-title-v15-renderer {
-
-
-        color: #000 !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-    yt-share-target-renderer .yt-share-target-renderer[style-target="title"] {
-
-
-        #title.yt-share-panel-title-v15-renderer {
-
-
-            color: #000 !important;
-
-
-            text-shadow: none;
-
-
-        }
-
-
-    }
-
-
-
-
-    #above-the-fold div h1 yt-formatted-string {
-
-
-        /*tittle video page*/
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-    #above-the-fold div div ytd-video-owner-renderer yt-formatted-string {
-
-
-        /*sub count video page*/
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-
-
-    #above-the-fold div div ytd-video-owner-renderer div ytd-channel-name div div yt-formatted-string a {
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
-
-
-    #above-the-fold div div ytd-video-owner-renderer div ytd-badge-supported-renderer div yt-icon span div svg {
-
-
-        color: #ffffff !important;
-
-
-        text-shadow: none;
-
-
-    }
-
-
+    backdrop-filter: saturate(180%) blur(20px);
+  }
 }
